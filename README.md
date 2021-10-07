@@ -1,3 +1,11 @@
+This fork contains a debian folder based on the rosbloom tool (bloom-generate rosdebian) to generate a debian.
+
+To build the debian, run:
+
+fakeroot debian/rules binary
+
+================
+
 # Livox ROS Driver([览沃ROS驱动程序中文说明](https://github.com/Livox-SDK/livox_ros_driver/blob/master/README_CN.md))
 
 livox_ros_driver is a new ROS package, specially used to connect LiDAR products produced by Livox. The driver can be run under ubuntu 14.04/16.04/18.04 operating system with ROS environment (indigo, kinetic, melodic) installed. Tested hardware platforms that can run livox_ros_driver include: Intel x86 cpu platforms, and some ARM64 hardware platforms (such as nvida TX2 / Xavier, etc.).

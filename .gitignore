@@ -4,5 +4,16 @@ CMakeLists.txt
 livox_ros_driver/Livox-SDK
 #whitelist
 
-
-
+#debian
+.debhelper
+livox_ros_driver/debian/files
+*.deb
+*.ddeb
+*.dsc
+*.build
+*.buildinfo
+*.changes
+*.log
+*.substvars
+livox_ros_driver/debian/ros-melodic-livox-ros-driver
+obj-x86_64-linux-gnu
