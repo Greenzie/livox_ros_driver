@@ -1,3 +1,9 @@
+ros-melodic-livox-ros-driver (2.0.2-0bionic) bionic; urgency=medium
+
+  * Update lidar frame time to ros time now. 
+
+ -- Jonathan Sanabria <jonathan@greenzie.com>  Tue, 09 Nov 2021 10:55:02 -0500
+
 ros-melodic-livox-ros-driver (2.0.1-0bionic) bionic; urgency=high
 
   * Added dependency for livox-sdk
