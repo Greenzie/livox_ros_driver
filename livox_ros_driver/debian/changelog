@@ -1,3 +1,9 @@
+ros-focal-livox-ros-driver (2.0.2-0focal) focal; urgency=medium
+
+  * Ported Melodic to Noetic
+
+ -- Kristian Kabbabe <kristian@greenzie.com>  Tue, 25 Jan 2022 13:49:41 -0500
+
 ros-melodic-livox-ros-driver (2.0.2-0bionic) bionic; urgency=medium
 
   * Update lidar frame time to ros time now. 

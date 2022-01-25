@@ -1,12 +1,12 @@
-Source: ros-melodic-livox-ros-driver
+Source: ros-noetic-livox-ros-driver
 Section: misc
 Priority: optional
 Maintainer: Livox Dev Team <dev@livoxtech.com>
-Build-Depends: debhelper (>= 9.0.0), git, libapr1-dev, libaprutil1-dev, ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-pcl-ros, ros-melodic-rosbag, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, livox-sdk
+Build-Depends: debhelper (>= 9.0.0), git, libapr1-dev, libaprutil1-dev, ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-pcl-ros, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, livox-sdk
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: ros-melodic-livox-ros-driver
+Package: ros-noetic-livox-ros-driver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, git, libapr1-dev, libaprutil1-dev, ros-melodic-message-runtime, ros-melodic-pcl-ros, ros-melodic-rosbag, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, livox-sdk
+Depends: ${shlibs:Depends}, ${misc:Depends}, git, libapr1-dev, libaprutil1-dev, ros-noetic-message-runtime, ros-noetic-pcl-ros, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, livox-sdk
 Description: The ROS device driver for Livox 3D LiDARs and Livox Hub

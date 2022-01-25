@@ -16,4 +16,5 @@ livox_ros_driver/debian/files
 *.log
 *.substvars
 livox_ros_driver/debian/ros-melodic-livox-ros-driver
+livox_ros_driver/debian/ros-noetic-livox-ros-driver
 obj-x86_64-linux-gnu
