@@ -1,4 +1,4 @@
-ros-focal-livox-ros-driver (2.0.2-0focal) focal; urgency=medium
+ros-noetic-livox-ros-driver (2.0.2-0focal) focal; urgency=medium
 
   * Ported Melodic to Noetic
 
